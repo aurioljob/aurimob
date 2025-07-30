@@ -12,11 +12,6 @@ class authController extends Controller
 {
     public function login()
     {
-        // User::create([
-        //     'name' => 'Admin',
-        //     'email' => 'aurioldjeunga@gmail.com',
-        //     'password' => bcrypt('Cerena96'),
-        // ]);
         return view('admin.auth.login');
     }
     public function dologin(loginRequest $request)
